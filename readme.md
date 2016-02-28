@@ -1,11 +1,11 @@
-# LayITout
+![](logo.png)
 A CSS layout library based on BEM IT that uses **Flexbox**.
 
 To a better understanding, please check:
 
-- (BEM)[https://css-tricks.com/bem-101/]
-- (IT CSS)[http://csswizardry.net/talks/2014/11/itcss-dafed.pdf]
-- And the convination of both (BEM IT)[http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/] by Harry Roberts
+- [BEM](https://css-tricks.com/bem-101/)
+- [IT CSS](http://csswizardry.net/talks/2014/11/itcss-dafed.pdf)
+- And the convination of both [BEM IT](http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) by Harry Roberts
 
 ## A use case
 
