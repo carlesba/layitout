@@ -1,0 +1,44 @@
+/*
+  <div class='o-hgrid'>
+    <div class='o-hgrid__fixed'></div>
+    <div class='o-hgrid__fixed o-hgrid__fixed--big'></div>
+    <div class='o-hgrid__fluid'></div>
+  </div>
+ */
+
+.o-hgrid
+  position: relative
+  +display(flex)
+  height: 100%
+
+.o-hgrid--right
+  +justify-content(flex-end)
+
+.o-hgrid__fixed
+  height: 100%
+
+.o-hgrid__fixed--big
+  width: 230px
+
+.o-hgrid__fluid
+  height: 100%
+  +flex(1 1)
+
+/*
+  <div class='o-vgrid'>
+    <div class='o-vgrid__fixed'></div>
+    <div class='o-vgrid__fluid'></div>
+  </div>
+ */
+.o-vgrid
+  position: relative
+  +display(flex)
+  +flex-direction(column)
+  height: 100%
+
+.o-vgrid__fixed
+  height: 80px
+  +flex(0 0 80px)
+
+.o-vgrid__fluid
+  +flex(1 1)

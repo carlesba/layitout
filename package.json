@@ -1,0 +1,31 @@
+{
+  "name": "layitout",
+  "version": "0.1.0",
+  "description": "A CSS layout library based on BEM IT",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlesba/layitout.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "bemit",
+    "bem"
+  ],
+  "author": "carlesba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlesba/layitout/issues"
+  },
+  "homepage": "https://github.com/carlesba/layitout#readme",
+  "devDependencies": {
+    "bourbon": "^4.2.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}
