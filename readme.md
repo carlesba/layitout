@@ -1,4 +1,4 @@
-![](logo.svg)
+![](./logo.svg)
 A CSS layout library based on BEM IT that uses **Flexbox**.
 
 To a better understanding, please check:
